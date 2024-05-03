@@ -1,0 +1,39 @@
+GIT
+  remote: https://github.com/copremesis/MaxMind-DB-Reader-ruby
+  revision: 5182c7233630009c48f71b523135c42c72ac2337
+  specs:
+    maxmind-db (1.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.8.0)
+    ffi (1.10.0)
+    interactive_editor (0.0.11)
+      spoon (>= 0.0.1)
+    mustermann (1.0.3)
+    rack (2.0.7)
+    rack-protection (2.0.5)
+      rack
+    sinatra (2.0.5)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.5)
+      tilt (~> 2.0)
+    sinatra-cross_origin (0.4.0)
+    spoon (0.0.6)
+      ffi
+    tilt (2.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  interactive_editor
+  maxmind-db!
+  sinatra
+  sinatra-cross_origin
+
+BUNDLED WITH
+   1.15.1

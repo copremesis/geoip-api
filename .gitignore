@@ -1,0 +1,9 @@
+*.sw?
+wip.rb
+*.zip
+*.tar*
+MaxMind/*
+tmp
+curl/generated-dict/*
+auth.log*
+
