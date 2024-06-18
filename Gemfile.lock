@@ -1,29 +1,37 @@
-GIT
-  remote: https://github.com/copremesis/MaxMind-DB-Reader-ruby
-  revision: 5182c7233630009c48f71b523135c42c72ac2337
-  specs:
-    maxmind-db (1.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
-    awesome_print (1.8.0)
-    ffi (1.10.0)
-    interactive_editor (0.0.11)
-      spoon (>= 0.0.1)
-    mustermann (1.0.3)
-    rack (2.0.7)
-    rack-protection (2.0.5)
-      rack
-    sinatra (2.0.5)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.5)
+    awesome_print (1.9.2)
+    base64 (0.2.0)
+    ffi (1.16.3)
+    interactive_editor (0.0.12)
+      spoon (~> 0.0.6)
+    maxmind-db (1.2.0)
+    multi_json (1.15.0)
+    mustermann (3.0.0)
+      ruby2_keywords (~> 0.0.1)
+    rack (2.2.9)
+    rack-protection (3.2.0)
+      base64 (>= 0.1.0)
+      rack (~> 2.2, >= 2.2.4)
+    ruby2_keywords (0.0.5)
+    sinatra (3.2.0)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.2.0)
+      tilt (~> 2.0)
+    sinatra-contrib (3.2.0)
+      multi_json (>= 0.0.2)
+      mustermann (~> 3.0)
+      rack-protection (= 3.2.0)
+      sinatra (= 3.2.0)
       tilt (~> 2.0)
     sinatra-cross_origin (0.4.0)
+    sinatra-reloader (1.0)
+      sinatra-contrib
     spoon (0.0.6)
       ffi
-    tilt (2.0.9)
+    tilt (2.3.0)
 
 PLATFORMS
   ruby
@@ -31,9 +39,10 @@ PLATFORMS
 DEPENDENCIES
   awesome_print
   interactive_editor
-  maxmind-db!
+  maxmind-db
   sinatra
   sinatra-cross_origin
+  sinatra-reloader
 
 BUNDLED WITH
-   1.15.1
+   1.17.3

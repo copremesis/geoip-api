@@ -6,4 +6,6 @@ MaxMind/*
 tmp
 curl/generated-dict/*
 auth.log*
+uploads/*
+ips
 
